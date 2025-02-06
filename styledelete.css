@@ -1,0 +1,82 @@
+/* Basic styling for body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2575fc;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Main container */
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    color: #333;
+}
+
+/* Forum List */
+.forum-list {
+    margin-top: 20px;
+}
+
+/* Individual Forum Card */
+.forum-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+/* Hover effect */
+.forum-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Title of the forum */
+.forum-card h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #2575fc;
+}
+
+/* Headline or short description */
+.forum-card p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Delete button */
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for delete button */
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
